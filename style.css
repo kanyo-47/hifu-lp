@@ -1,0 +1,78 @@
+css
+コピーする編集する
+/* リセットCSS（簡易版） */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+/* ここから記入 */
+.top-visual {
+  position: relative;
+  width: 375px;
+  height: auto;
+}
+
+.top-img {
+  width: 100%;
+  display: block;
+  z-index: 1;
+}
+
+.top-btn-img {
+  position: absolute;
+  top: 679px;
+  left: 78px;
+  width: 221.25px;
+  z-index: 3;
+  display: block; /* これ重要！ */
+}
+.camp-btn-img {
+  position: absolute;
+  top: 5184px;
+  left: 78px;
+  width: 221.25px;
+  z-index: 3;
+  display: block; /* これ重要！ */
+}
+.access-btn-img {
+  position: absolute;
+  top: 6467px;
+  left: 78px;
+  width: 221.25px;
+  z-index: 3;
+  display: block; /* これ重要！ */
+}
+.line-btn-img {
+  position: absolute;
+  top: 6535px;
+  left: 78px;
+  width: 221.25px;
+  z-index: 3;
+  display: block; /* これ重要！ */
+}
